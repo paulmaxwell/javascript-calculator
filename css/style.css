@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+}
+
+section {
+	background-color: darkslategrey;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	position: fixed;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.calculator {
+	background-color: beige;
+	-webkit-box-shadow: 8px 8px 24px -2px rgba(0,0,0,0.75);
+	        box-shadow: 8px 8px 24px -2px rgba(0,0,0,0.75);
+	width: 280px;
+	margin: auto;
+	padding: 30px;
+	z-index: 1;
+}
+
+.screen {
+	width: 100%;
+	background-color: #b4b6a9;
+	font-family: monospace;
+	text-align: right;
+	height: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.screen p {
+	margin-left: auto;
+	padding-right: 5px;
+	font-weight: 400;
+	width: 100%;
+}
+
+.row {
+	padding: 5px 0px;
+}
+
+.four-col, .three-col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 100%;
+}
+
+.col, .col-wide {
+	background-color: lightslategrey;
+	color: white; 
+	width: 60px;
+	height: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	cursor: pointer;
+}
+
+.col {
+	border-radius: 50%;
+	-webkit-box-shadow: 1px 3px 24px -2px rgba(79,79,79,0.75);
+	        box-shadow: 1px 3px 24px -2px rgba(79,79,79,0.75);
+}
+
+.col-wide {
+	width: 133px;
+	border-radius: 25%;
+	-webkit-box-shadow: 1px 3px 24px -2px rgba(79,79,79,0.75);
+	        box-shadow: 1px 3px 24px -2px rgba(79,79,79,0.75);
+}
+
+.equals {
+	background-color: #dfc121;
+}
+
+.operator {
+	color: #544037;
+}
+
+.clear {
+	color: #4e5438;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	vertical-align: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 70px;
+	z-index: 0;
+}
+
+footer p {
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+footer a {
+	color: white;
+	text-decoration: none
+}
+/*# sourceMappingURL=../dist/css/maps/style.css.map */
