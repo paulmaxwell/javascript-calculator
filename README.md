@@ -4,4 +4,4 @@ A basic javascript calculator
 
 
 View on GitHub Pages:
-https://villain101.github.io/javascript-calculator/
+https://paulmaxwell.github.io/javascript-calculator/
